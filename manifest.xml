@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+
+ <project remote="yocto" name="poky" revision="kirkstone" path="sources/poky"/>
+ <project remote="yocto" name="meta-raspberrypi" revision="kirkstone" path="sources/meta-raspberrypi"/>
+ <project remote="oe" name="meta-openembedded" revision="kirkstone" path="sources/meta-openembedded"/>
+  <!-- End MODULE dev-other -->
+
+</manifest>
