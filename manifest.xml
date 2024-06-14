@@ -2,7 +2,7 @@
 
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <remote fetch="https://github.com/ros" name="ros"/>
+  <remote fetch="git://github.com/ros" name="ros"/>
 
  <project remote="yocto" name="poky" revision="kirkstone" path="sources/poky"/>
  <project remote="yocto" name="meta-raspberrypi" revision="kirkstone" path="sources/meta-raspberrypi"/>
