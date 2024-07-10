@@ -9,7 +9,7 @@
   <project remote="yocto" name="poky" revision="kirkstone" path="sources/poky"/>
   <project remote="yocto" name="meta-raspberrypi" revision="kirkstone" path="sources/meta-raspberrypi"/>
   <project remote="oe" name="meta-openembedded" revision="kirkstone" path="sources/meta-openembedded"/>
-  <project remote="rpi-gpu" name="meta-rpi-gpu" revision="main" path="sources/meta-rpi-gpu"/>
+  <project remote="rpi-gpu" name="meta-rpi-gpu" revision="master" path="sources/meta-rpi-gpu"/>
   <!-- End MODULE dev-other -->
 
 </manifest>
