@@ -6,10 +6,9 @@
   <remote fetch="https://github.com/ros" name="ros"/>
   <remote fetch="https://github.com/Vinay046" name="rpi-gpu"/>
 
-  <project remote="yocto" name="poky" revision="kirkstone" path="poky"/>
-  <project remote="yocto" name="meta-raspberrypi" revision="kirkstone" path="meta-raspberrypi"/>
-  <project remote="oe" name="meta-openembedded" revision="kirkstone" path="meta-openembedded"/>
-  <project remote="rpi-gpu" name="meta-rpi-gpu" revision="master" path="meta-rpi-gpu"/>
+  <project remote="yocto" name="poky" revision="scarthgap" path="poky"/>
+  <project remote="yocto" name="meta-raspberrypi" revision="scarthgap" path="meta-raspberrypi"/>
+  <project remote="oe" name="meta-openembedded" revision="scarthgap" path="meta-openembedded"/>
   <!-- End MODULE dev-other -->
 
 </manifest>
