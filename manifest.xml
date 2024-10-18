@@ -6,9 +6,9 @@
   <remote fetch="https://github.com/ros" name="ros"/>
   <remote fetch="https://github.com/Vinay046" name="rpi-gpu"/>
 
-  <project remote="yocto" name="poky" revision="mickledore" path="poky"/>
-  <project remote="yocto" name="meta-raspberrypi" revision="mickledore" path="meta-raspberrypi"/>
-  <project remote="oe" name="meta-openembedded" revision="mickledore" path="meta-openembedded"/>
+  <project remote="yocto" name="poky" revision="kirkstone" path="poky"/>
+  <project remote="yocto" name="meta-raspberrypi" revision="kirkstone" path="meta-raspberrypi"/>
+  <project remote="oe" name="meta-openembedded" revision="kirkstone" path="meta-openembedded"/>
   <!-- End MODULE dev-other -->
 
 </manifest>
