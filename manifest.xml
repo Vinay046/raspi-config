@@ -4,12 +4,13 @@
   <remote fetch="git://git.yoctoproject.org" name="yocto"/>
   <remote fetch="git://git.openembedded.org" name="oe"/>
   <remote fetch="https://github.com/ros" name="ros"/>
-  <remote fetch="https://github.com/Vinay046" name="rpi-gpu"/>
+  <remote fetch="https://github.com/Vinay046" name="omnibot"/>
 
   <project remote="yocto" name="poky" revision="scarthgap" path="poky"/>
   <project remote="yocto" name="meta-raspberrypi" revision="scarthgap" path="meta-raspberrypi"/>
   <project remote="oe" name="meta-openembedded" revision="scarthgap" path="meta-openembedded"/>
   <project remote="ros" name="meta-ros" revision="scarthgap" path="meta-ros"/>
+  <project remote="omnibot" name="meta-omnibot" revision="main" path="meta-omnibot"/>
   <!-- End MODULE dev-other -->
 
 </manifest>
